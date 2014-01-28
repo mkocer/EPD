@@ -9,8 +9,7 @@ import time
 import os, sys
 import Tkinter
 import tkFileDialog
-import Image, ImageTk
-import ImageEnhance
+from PIL import Image, ImageTk, ImageEnhance
 import PIL.ImageOps
 import struct
 import os.path
